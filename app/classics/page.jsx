@@ -2,21 +2,20 @@ import { FeedbackForm } from 'components/feedback-form';
 import { Markdown } from '../../components/markdown';
 
 export const metadata = {
-    title: 'Geri Bildirim'
+    title: 'Hakkımda'
 };
 
 const explainer = `
-Luritz
-Merhaba! Ben Luritz, tasarım ve kullanıcı deneyimi konusunda uzmanlaşmış bir profesyonelim. Şıklığı ve işlevselliği bir araya getirerek projelerinizi görsel olarak mükemmel hale getiriyorum.
+Merhaba! Ben Luritz, Roblox dünyasında güvenilir ve kaliteli itemler sunan bir satıcıyım. Kullanıcı dostu ve güvenli bir alışveriş deneyimi sağlamak için buradayım.
 
-Ne Yapıyorum?
-Tasarım ve kullanıcı deneyimi odaklı projeler geliştiriyorum. Amacım, estetik ve işlevsel açıdan mükemmel sonuçlar elde etmek ve kullanıcılarınızın beklentilerini karşılamaktır.
+Ne Sunuyorum?
+Roblox oyununda ihtiyaç duyduğunuz itemleri güvenilir bir şekilde sunuyorum. Her ürünüm, oyuncuların beklentilerini karşılayacak kalitede ve güvenli bir alışveriş deneyimi sunar.
 
-Vizyonum
-Tasarım ve estetik anlayışımı kullanarak, projelerinizda fark yaratmak ve kullanıcı deneyimini en üst düzeye çıkarmak.
+Vizyonum:
+Roblox topluluğuna değerli ve güvenilir ürünler sunarak, oyun deneyiminizi geliştirmek. Her zaman müşteri memnuniyetini ön planda tutarak, sorunsuz ve güvenilir bir hizmet sunmayı amaçlıyorum.
 
-Misyonum
-Kaliteli ve etkili tasarımlar sunarak projelerinizi başarılı kılmak. Her projede yenilikçi ve yaratıcı çözümler sunmak için çalışıyorum.
+Misyonum:
+Kullanıcılarımıza yüksek kaliteli ve güvenilir Roblox itemleri sunmak. Alışveriş sürecinizin her aşamasında size en iyi hizmeti vermek için çalışıyorum.
 `;
 
 export default async function Page() {
